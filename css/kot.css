@@ -1,5 +1,5 @@
 body {
-  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  background: background: rgba(255,255,255,0.8); no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -60,7 +60,7 @@ hr {
 
 .box {
   background: #fff;
-  background: rgba(255,255,255,0.9);
+  background: rgba(255,255,255,0.8);
   margin-bottom: 20px;
   padding: 30px 15px;
 }
@@ -103,7 +103,7 @@ footer p {
   text-align: center;
   margin: 0;
   padding: 30px 0 10px;
-  color: #fff;
+  color: black;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
@@ -120,12 +120,13 @@ footer p {
   display: inherit;
   text-align: center;
   margin: 0;
-  padding: 0 0 40px;
+  padding: 0 10 10px;
   font-size: 1.25em;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 400;
   color: #fff;
+  background: yellow;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
