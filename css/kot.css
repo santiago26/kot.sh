@@ -225,6 +225,10 @@ footer p {
 .wheretobuy li{
 break-inside: avoid-column;
 -webkit-column-break-inside: avoid;
+    -moz-column-break-inside:avoid;
+    -moz-page-break-inside:avoid;
+    page-break-inside: avoid;
+    
 }
 }
 
