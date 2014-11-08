@@ -173,6 +173,7 @@ footer p {
         content: '';
         display: table;
         clear: both;
+        background: red;
     }
 }
 .logo {
@@ -192,4 +193,46 @@ footer p {
 {
     font-weight: bold;
     letter-spacing:2px;
+}
+
+.btn {
+    color: black;
+      background-color: yellow;
+      border-color: black;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: black;
+  background-color: lightyellow;
+  border-color: black;
+}
+
+
+@media screen and (min-width: 768px) {
+.wheretobuy {
+-webkit-column-count: 3 200px;
+     -moz-column-count: 3 200px;
+          column-count: 3 200px;
+  -webkit-column-width: 200px;
+     -moz-column-width: 200px;
+          column-width: 200px;
+}
+}
+
+vuz {
+font-weight: bolder;
+/*    color: red;*/
+}
+
+.social {
+    max-width: 64px; 
+}
+.social:hover{
+    
+    background: yellow;
+    
 }
