@@ -138,6 +138,7 @@ footer p {
 .navbar-header {
   display: none;
 }
+    
 
 .navbar {
   min-height: 0;
@@ -175,6 +176,20 @@ footer p {
     }
 }
 .logo {
-    width: 80%;
+    width: 70%;
     max-width:inherit;
+}
+
+.carousel {
+    max-width: 100%;
+}
+.btn-default {
+        /*border: none;*/
+        background: yellow;
+/*        background: rgba(255,255,255,0.9);*/
+    }
+.accent
+{
+    font-weight: bold;
+    letter-spacing:2px;
 }

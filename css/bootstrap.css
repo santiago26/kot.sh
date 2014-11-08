@@ -5420,6 +5420,8 @@ button.close {
 }
 .carousel {
   position: relative;
+    align-self: right;
+max-width: 50%;
 }
 .carousel-inner {
   position: relative;
