@@ -1,5 +1,5 @@
 body {
-  background: background: о; no-repeat center center fixed; 
+  background: lightyellow; no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -84,8 +84,8 @@ hr {
 }
 
 footer {
-  background: #fff;
-  background: rgba(255,255,255,0.9);
+  background: inherit;
+/*  background: rgba(255,255,255,0.9);*/
 }
 
 footer p {
@@ -189,7 +189,7 @@ footer p {
         background: yellow;
 /*        background: rgba(255,255,255,0.9);*/
     }
-.accent
+accent
 {
     font-weight: bold;
     letter-spacing:2px;
@@ -213,25 +213,40 @@ footer p {
 
 
 @media screen and (min-width: 768px) {
-.wheretobuy {
--webkit-column-count: 3;
-     -moz-column-count: 3;
-          column-count: 3;
--webkit-column-width: 200px;
-     -moz-column-width: 200px;
-          column-width: 200px;
+    .wheretobuy {
+    -webkit-column-count: 3;
+         -moz-column-count: 3;
+              column-count: 3;
+    -webkit-column-width: 200px;
+         -moz-column-width: 200px;
+              column-width: 200px;
 
-}
-.wheretobuy li{
-break-inside: avoid-column;
--webkit-column-break-inside: avoid;
-    -moz-column-break-inside:avoid;
-    -moz-page-break-inside:avoid;
-    page-break-inside: avoid;
+    }
+    .wheretobuy li{
+    break-inside: avoid-column;
+    -webkit-column-break-inside: avoid;
+        -moz-column-break-inside:avoid;
+        -moz-page-break-inside:avoid;
+        page-break-inside: avoid;
+
+    }
+    .wheretobuy h1,h2,h3 {
+      -webkit-column-span: all; 
+              column-span: all; 
+    }
+    .wheretobuy img {
+    border: gray solid 1px;
+/*    -webkit-column-break-after: always;*/
+/*    break-after: column;*/
+    }
     
+    .wheretobuy ul {
+    break-after: always;
 }
 }
+city {
 
+}
 vuz {
 font-weight: bolder;
 /*    color: red;*/
@@ -239,9 +254,13 @@ font-weight: bolder;
 
 .social {
     max-width: 64px; 
+    background: white;
+    border: gray solid 1px;
 }
 .social:hover{
     
     background: yellow;
     
 }
+
+
